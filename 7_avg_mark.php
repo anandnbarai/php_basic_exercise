@@ -35,19 +35,19 @@
         <br>
         <form method="post">
             <div>
-            Enter Mark of Maths : <input class="number" type="number" value="maths" name="maths" placeholder="Enter Mark of Maths"
+            Enter Mark of Maths : <input class="number" type="number" value="maths" name="maths" max="100" placeholder="Enter Mark of Maths"
                 required />
             <br>
-            Enter Mark of Physics : <input class="number" type="number" value="phy" name="phy" placeholder="Enter Mark of Physics"
+            Enter Mark of Physics : <input class="number" type="number" value="phy" name="phy" max="100" placeholder="Enter Mark of Physics"
                 required />
             <br>
-            Enter Mark of Chemistry : <input class="number" type="number" value="che" name="che"
+            Enter Mark of Chemistry : <input class="number" type="number" value="che" name="che" max="100"
                 placeholder="Enter Mark of Chemistry" required />
             <br>
-            Enter Mark of English : <input class="number" type="number" value="eng" name="eng" placeholder="Enter Mark of English"
+            Enter Mark of English : <input class="number" type="number" value="eng" name="eng" max="100" placeholder="Enter Mark of English"
                 required />
             <br>
-            Enter Mark of Computer : <input class="number" type="number" value="comp" name="comp" placeholder="Enter Mark of Computer"
+            Enter Mark of Computer : <input class="number" type="number" value="comp" name="comp" max="100" placeholder="Enter Mark of Computer"
                 required />
             <br>
             </div>
