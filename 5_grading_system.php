@@ -53,7 +53,7 @@
             } elseif ($mark >= 35) {
                 echo "<b>Congratulation, You've got D Grade.</b>";
             } else {
-                echo "<b>You failed in this Exam. Work Hard</b>";
+                echo "<b>You failed in this Exam. Work Hard.</b>";
             }
         }
 
