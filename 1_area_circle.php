@@ -32,7 +32,7 @@
 
     <center>
     <br><br>
-    <h3> Enter the Value of Raduis to Calculate Area of Circle </h3>
+    <h3> Enter the Value of Radius to Calculate Area of Circle </h3>
     <br>
         <form method="post">
             Enter Radius of Circle : <input class="number" type="number" name="radius" placeholder="Enter Radius of Circle" required />
