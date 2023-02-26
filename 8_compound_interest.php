@@ -32,6 +32,7 @@
     <center>
         <br><br>
         <h3> Enter the Principal Amount, Rate of Interest & Time Period to Calculate Compound Interest. </h3>
+        <br>
         <form method="post">
 
             Enter Principal Amount : <input class="number" type="number" value="pa" name="pa"

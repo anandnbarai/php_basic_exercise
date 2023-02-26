@@ -28,6 +28,7 @@
     <center>
         <br><br>
         <h3>Enter Your Age to check Voting Eligibility for upcoming Election</h3>
+        <br>
         <form method="post">
             Enter Your Age : <input class="number" type="number" name="age" value="age" placeholder="Enter Your Age" required />
             <br>

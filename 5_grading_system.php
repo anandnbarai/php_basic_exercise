@@ -32,7 +32,7 @@
     <center>
         <br><br>
         <h3> Enter Your Marks out of 100 to Know Your Grade </h3>
-
+        <br>
         <form method="post">
             Enter Your Marks : <input class="number" type="number" name="mark" value="mark" max="100"
                 placeholder="Enter Your Mark" required />
