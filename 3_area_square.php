@@ -30,7 +30,7 @@
     <center>
     <br><br>
     <h3> Enter the Value of Side to Calculate Area of Square </h3>
-
+    <br>
 
         <form method="post">
             Enter the Value of Squre Side :  <input class="number" type="number" name="side" value="side" placeholder="Enter Side of Square" required />
