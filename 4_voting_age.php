@@ -40,15 +40,27 @@
 
         if(isset($_POST["submit"]))
         {
-            $age = $_POST["age"];
-            if($age>18)
-            {
-                echo "<b>You are eligible for Voting.</b>";
-            }
-            else
-            {
-                echo "<b>You are not eligible for Voting.</b>";
-            }
+            $age = $_POST["age"]; 
+
+
+            //! the ternary operator is basically an if, then, else in a single line.
+            //? Syntax 
+            //* $var = condition ? Result is condition is true : Result if condition is False
+
+            $age = ($age > 18) ? "<b>You are eligible for Voting.</b>" : "<b>You are not eligible for Voting.</b>";
+            echo $age;
+
+
+            //? by using if statement
+
+            // if($age>18)
+            // {
+            //     echo "<b>You are eligible for Voting.</b>";
+            // }
+            // else
+            // {
+            //     echo "<b>You are not eligible for Voting.</b>";
+            // }
         }
         ?>
 
