@@ -43,6 +43,26 @@
 
         <?php
 
+        if (isset($_POST["submit"]))
+        {
+            $nub = $_POST["prime"];
+            function check_prime($nub)
+            {
+                if ($nub == 1)
+                return 0;
+                for ($i=2 ; $i <= $nub/2; $i++){
+                    if ($nub % $i == 0)
+                    return 0;
+                }
+                return 1;
+            }
+        
+            $prime = check_prime($nub);
+            if($prime == 1)
+                echo "<b>$nub is prime number.</b>";
+            else
+                echo "<b>$nub is not prime number.</b>";
+        }
     
         ?>
     </center>
